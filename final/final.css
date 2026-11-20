@@ -12,7 +12,8 @@
 	font-size: 50px;
 	text-align: center;
 	font-family: 'Georgia', serif;
-	background-color: black;
+	background-color: #264653;
+	color:  #F1FAEE;
 }
 h4 {
 	font-style: italic;
@@ -21,6 +22,8 @@ h4 {
 }
 h3 {
 	font-size: 30px;
+	img width: 500px;
+	img height: 300px;
 }
 
 p { /* This is how you add styles for only the p text within the footer. */
@@ -41,5 +44,19 @@ p { /* This is how you add styles for only the p text within the footer. */
  iframe {
  	min-width: 90%;
  	margin-right: 10px;
+img {
+    float: right;
+    margin-right: 5%;
+    margin-left: 5%;
+    
+img {
+    transition: transform 0.3s ease;
+}
+
+img:hover {
+    transform: scale(1.05);
+    cursor: pointer;
+}
+
  }
 }
